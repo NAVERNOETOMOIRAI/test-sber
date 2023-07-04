@@ -1,0 +1,22 @@
+.registration{
+  height: 580px;
+  width: 380px;
+  background: var(--second-color);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 40px;
+  justify-content: space-evenly;
+  &__header{
+    color: var(--font-color);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  & > div, & > form{
+    flex-grow: 1;
+  }
+}

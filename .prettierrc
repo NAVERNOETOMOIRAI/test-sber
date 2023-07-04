@@ -1,0 +1,34 @@
+{
+  "rules": {
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "off",
+    "import/no-unresolved": "off",
+    "import/no-extraneous-dependencies": [
+      "error",
+      { "peerDependencies": true }
+    ],
+    "react/no-unused-prop-types": 0,
+    "react/prop-types": 0,
+    "react/forbid-prop-types": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "jsx-a11y/no-interactive-element-to-noninteractive-role": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/media-has-caption": "off",
+    "space-before-keywords": "off",
+    "space-after-keywords": "off",
+    "radix": ["error", "as-needed"],
+    "quotes": [2, "single"],
+    "no-shadow": "off",
+    "no-unused-vars": [
+      "error",
+      { "vars": "all", "args": "none", "ignoreRestSiblings": false }
+    ],
+    "no-param-reassign": ["error", { "props": false }],
+    "no-return-assign": [2, "except-parens"],
+    "eqeqeq": "off",
+    "no-plusplus": "off",
+    "no-underscore-dangle": ["error", { "allow": ["_children"] }],
+    "no-use-before-define": ["error", { "variables": false }]
+  }
+}

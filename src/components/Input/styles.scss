@@ -1,0 +1,39 @@
+.input{
+  width: 100%;
+  background: var(--main-color);
+  height: 40px;
+  min-height: 40px;
+  border-radius: 4px;
+  border: none;
+  color: var(--font-color);
+  padding: 0px 10px;
+  &:focus-visible{
+    outline: none;
+  }
+  &__wrapper{
+    display: flex;
+    flex-direction: column;
+
+  }
+  &__header{
+    color: var(--font-color);
+    line-height: 16.8px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  &__error{
+    line-height: 14.4px;
+    color: var(--warning);
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 3px;
+  }
+  &__description{
+    line-height: 14.4px;
+    font-size: 12px;
+    color: var(--font-gray-color);
+    font-weight: 400;
+    margin-top: 2px;
+  }
+}

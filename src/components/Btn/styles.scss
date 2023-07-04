@@ -1,0 +1,23 @@
+.button{
+  line-height: 16.8px;
+  width: 100%;
+  text-align: center;
+  height: 40px;
+  color: var(--font-color);
+  font-weight: 600;
+  background: var(--accent);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:hover+ &:not(&:disabled) {
+    box-shadow: 0px 0px 10px var(--accent);
+  }
+ &:active + &:not(&:disabled) {
+   box-shadow: 0px 0px 10px var(--font-color);
+  }
+  &:disabled{
+    opacity: 95%;
+    cursor:not-allowed;
+  }
+}

@@ -1,0 +1,31 @@
+.registration-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  &__inputs{
+    height: 295px;
+    max-height: 295px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+     & > div{
+      flex-basis: 0;
+      flex-grow: 1;
+      max-height: 33.33%;
+    }
+  }
+  &__footer{
+    display: flex;
+    align-items: center;
+    height: 90px;
+    flex-direction: column;
+    gap: 15px;
+    &-back{
+      color: var(--accent);
+      border: none;
+      background: initial;
+      cursor: pointer;
+    }
+  }
+}
