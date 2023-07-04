@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./styles.scss";
 import FirstStep from "./components/FirstStep";
 import SecondStep from "./components/SecondStep";
 import { FIRST_STEP, SECOND_STEP } from "./consts";
